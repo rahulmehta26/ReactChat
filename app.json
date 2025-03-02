@@ -4,7 +4,7 @@
     "slug": "ReactChat",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo_white_bg.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "",
+        "foregroundImage": "./assets/images/logo_text.png",
         "backgroundColor": "#ffffff"
       }
     },
@@ -27,9 +27,9 @@
       [
         "expo-splash-screen",
         {
-          "image": "",
-          "imageWidth": 200,
-          "resizeMode": "contain",
+          "image": "./assets/images/logo_text.png",
+          "imageWidth": 50,
+          "resizeMode": "cover",
           "backgroundColor": "#ffffff"
         }
       ]
